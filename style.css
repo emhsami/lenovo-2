@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    height: 600px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 0 40px 0.1px;
+    overflow: hidden;
+}
+.main-wrapper * {
+    position: absolute;
+}
+
+.yoga_900s {
+    top: -305px;
+    opacity: 0;
+}
+
+.flower-1 {
+    top: -160px;
+    left: 160px;
+}
+
+.flower-2 {
+    top: -60px;
+    left: 100px;
+}
+
+.flower-3 {
+    top: -60px;
+}
+
+.flower-4 {
+    top: -19px;
+    left: 59px;
+}
+
+.flower-5 {
+    top: -31px;
+    left: 150px;
+}
+.flower-6 {
+    top: -40px;
+    left: 101px;
+}
+
+.frame1_copy1, .frame1_copy2, .frame1_copy3, .frame1_copy4, .frame1_copy5 {
+    opacity: 0;
+    top: 20px;
+}
+
+.watchband_hinge, .active_pen{
+    top: -20px;
+    opacity: 0;
+}
+
+.frame2_copy1, .frame3_copy1 {
+    top: 20px;
+    opacity: 0;
+}
+
+.frame4_yoga_900s {
+    left: -20px;
+}
+
+.frame4_yoga_900s, .frame4_copy1, .icons, .intel_logo, .digital_logo, .buy_now {
+    opacity: 0;
+}
